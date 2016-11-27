@@ -1,0 +1,87 @@
+*
+{
+    spacing: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #222;
+    font-family: sans-serif;
+}
+
+
+.active
+{
+    border-left-color: white;
+    border-left-width: .3vw;
+    border-left-style: solid;
+    box-sizing: border-box;
+}
+
+
+.bar ul li
+{
+    list-style: none;
+    background-color: #777;
+    width: 10vw;
+    border-top-right-radius: .2vw;
+    color: #eee;
+    padding: .7vw;
+    box-sizing: border-box;
+}
+
+.bar ul li:hover
+{
+    background-color: white;
+    cursor: pointer;
+}
+
+#chatBar
+{
+    position: absolute;
+    top: 0;
+    left: 10.5vw;
+}
+
+#serverBar
+{
+    position: absolute;
+    top: 4.5vw;
+    left: 0;
+}
+
+.wrapper
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+#mainConsole
+{
+    position: absolute;
+    top: 5vw;
+    left: 11vw;
+    width: 88vw;
+    height: 82vh;
+    background: #CCC;
+}
+
+#consoleInput
+{
+    position: absolute;
+    bottom: 1vw;
+    left: 11vw;
+    background: #CCC;
+    width: 88vw;
+    height: 2vw;
+    border-style: solid;
+    border-width: thin;
+}
+
+#chatBar ul li
+{
+    display: inline-block;
+}
