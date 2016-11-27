@@ -1,0 +1,31 @@
+{
+  "name": "iREEEc",
+  "version": "1.0.0",
+  "description": "A modern IRC client for the web written in React",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon src/server.es6 --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ismouton/iREEEc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "mysql": "^2.11.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-preset-stage-2": "^6.13.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "nodemon": "^1.10.2"
+  }
+}
