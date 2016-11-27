@@ -18,7 +18,7 @@ body
 #logo
 {
     color:white;
-    font-size: 36;
+    font-size: 36px;
 }
 
 .connecting
@@ -34,20 +34,13 @@ body
     list-style: none;
     background-color: #777;
     width: 10vw;
-    border-top-right-radius: .2vw;
+    border-top-right-radius: .5vw;
     color: #eee;
     padding: .7vw;
     box-sizing: border-box;
-
     border-bottom-style: solid;
     border-bottom-color: black;
     border-bottom-width: thin;
-}
-
-.bar ul li:hover
-{
-    background-color: white;
-    cursor: pointer;
 }
 
 .bar .active
@@ -60,6 +53,15 @@ body
     box-sizing: border-box;
     border-bottom-color: #ccc;
 }
+
+.wrapper ul li:hover
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
 
 #chatBar
 {
@@ -74,21 +76,13 @@ body
     left: 0;
 }
 
-.wrapper
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100vh;
-}
-
 #mainConsole
 {
     position: relative;
     margin-top: -16px;
     left: 11vw;
-    width: 88vw;
-    height: 85vh;
+    width: 87vw;
+    height: 88vh;
     background: #CCC;
 }
 
@@ -96,13 +90,19 @@ body
 {
     background-color: green;
     position: absolute;
-    right: -.1vw;
+    right: -11vw;
+    bottom: -1vw;
     width: 4vw;
     text-align: center;
     color: #EEE;
-    padding: .6vw;
-    border-radius: .5vw;
+    padding: .7vh;
     margin-top: 0;
+}
+
+
+.bigGreenButton:hover
+{
+    cursor: pointer;
 }
 
 #consoleInput
@@ -111,8 +111,8 @@ body
     top: 1vw;
     left: 11vw;
     background: #CCC;
-    width: 88vw;
-    height: 2vw;
+    width: 80vw;
+    height: 3vh;
     border-style: solid;
     border-width: thin;
 }
@@ -120,4 +120,10 @@ body
 #chatbar ul li
 {
     display: inline-block;
+}
+
+#right
+{
+    position: absolute;
+    top: 0;
 }
